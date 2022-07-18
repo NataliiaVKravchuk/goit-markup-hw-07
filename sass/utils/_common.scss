@@ -1,0 +1,42 @@
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--text-color);
+	background-color: var(--first-light-color);
+}
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--second-title-color);
+	margin-bottom: 50px;
+}
+
+.third-title {
+	color: var(--second-title-color);
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--accent-color);
+}
+.pointer {
+	cursor: pointer;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
