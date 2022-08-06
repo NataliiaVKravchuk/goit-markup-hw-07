@@ -48,6 +48,10 @@
 	height: 100%;
 	border-radius: 50%;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+	background-color: var(--accent-color);
+}
 }
 .soc-icon {
 	fill: #afb1b8;
@@ -57,9 +61,4 @@
 .soc-link:hover .soc-icon,
 .soc-link:focus .soc-icon {
 	fill: var(--first-light-color);
-}
-
-.soc-link:hover,
-.soc-link:focus {
-	background-color: var(--accent-color);
 }
