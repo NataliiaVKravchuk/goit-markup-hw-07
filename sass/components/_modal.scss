@@ -105,7 +105,12 @@
 	&:focus {
 		border-color: var(--accent-color);
 		outline: 1px solid var(--accent-color);
+		&:hover + .input-icon,
+		&:focus + .input-icon {
+	fill: var(--accent-color);
 }
+}
+
 }
 .modal-text-area {
 	width: 100%;
@@ -122,15 +127,7 @@
 		border-color: var(--accent-color);
 		outline: 1px solid var(--accent-color);
 }
-}
-
-.modal-input:hover + .input-icon,
-.modal-input:focus + .input-icon {
-	fill: var(--accent-color);
-}
-
-
-.modal-text-area::placeholder {
+&::placeholder {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 1%;
@@ -138,6 +135,9 @@
 	font-weight: normal;
 	fill: rgba(117, 117, 117, 0.5);
 }
+}
+
+
 .checkbox {display: flex;
 	align-items: center;
 	margin-bottom: 30px;

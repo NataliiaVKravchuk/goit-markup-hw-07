@@ -8,10 +8,11 @@
 .item {
 	flex-basis: calc((100% - 30px) / 3);
 	margin-right: 30px;
-}
-.item:nth-child(3n) {
+	&:nth-child(3n) {
 	margin-right: 0;
 }
+}
+
 .top-wrap {
 	position: relative;
 }
